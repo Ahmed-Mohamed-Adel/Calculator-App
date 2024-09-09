@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="img/calculator_icon.png">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/13.1.1/math.js"
+      integrity="sha512-fMI/ndUubOcpzblrAaOFszYIE2iDKua+Cxg9dZp3cAkhsRWEHHbKtFCElHEQ50viX502yj7nFEEcxq2SOTNrIg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <h1>Calculator App</h1>
+    <div id="calulator_container">
+      <div id="display_area"></div>
+      <div class="container_row">
+        <button>C</button>
+        <button>(</button>
+        <button>)</button>
+        <button>/</button>
+      </div>
+      <div class="container_row">
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button>*</button>
+      </div>
+      <div class="container_row">
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button class="evaluate">-</button>
+      </div>
+      <div class="container_row">
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button class="evaluate">+</button>
+      </div>
+      <div class="container_row">
+        <button>DEL</button>
+        <button>0</button>
+        <button>.</button>
+        <button class="evaluate">=</button>
+      </div>
+    </div>
+  </body>
+</html>
